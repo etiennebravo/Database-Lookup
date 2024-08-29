@@ -90,7 +90,7 @@ public class PrimaryController {
         // Hardcoded authentication for the sake of simplicity
         String url = "jdbc:postgresql://localhost:5432/postgres";
         String user = "postgres";
-        String password = "0101";
+        String password = "0111";
     
         try (Connection connection = DriverManager.getConnection(url, user, password)) {
             if (searchCategory == null || searchCategory.equals("show all")) {
