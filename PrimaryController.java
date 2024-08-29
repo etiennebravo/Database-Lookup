@@ -1,8 +1,6 @@
 package com.bravo;
 
 import java.io.IOException;
-import java.net.URL;
-import java.util.ResourceBundle;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -51,7 +49,7 @@ public class PrimaryController {
 
     private ObservableList<product> data;
 
-    public void initialize(URL fxmlFileLocation, ResourceBundle resources) {
+    public void initialize() {
         // Assert file integrity
         assert searchField != null : "fx:id=\"searchField\" was not injected: check your FXML file 'primary.fxml'.";
         assert tableView != null : "fx:id=\"tableView\" was not injected: check your FXML file 'primary.fxml'.";
