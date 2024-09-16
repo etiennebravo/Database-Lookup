@@ -5,7 +5,7 @@ It allows users to interact with the database, performing various operations suc
 
 # Features:
 - Frontend using JavaFX.
-- Backend using Java along with JDBC for database connectivity and SQL connections.
+- Backend using Java along with JDBC for database connectivity and SQL Operations.
 - Database used is PostgreSQL.
 
 # Libraries used:
