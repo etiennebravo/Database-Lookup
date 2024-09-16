@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bravo.InsertController">
+    <style>
+    -fx-padding: 10;
+    </style>
+    <Label alignment="CENTER_LEFT" textAlignment="LEFT" text="Enter the data you wish to create in the correct field." />
+    <TextField fx:id="nameField" promptText="Product Name" /> 
+    <TextField fx:id="categoryField" promptText="Product category" />
+    <TextField fx:id="priceField" promptText="Product price" />
+    <TextField fx:id="stockField" promptText="Product stock" />
+    <Button fx:id="insert" text="Create" onAction="#insert" />
+    <Label fx:id="insertStatus" text="" />
+    <children>
+        <Button fx:id="mainMenuButton" text="Return to menu" onAction="#switchTomainMenu" />
+    </children>
+</VBox>

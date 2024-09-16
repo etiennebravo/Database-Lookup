@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bravo.DeleteController">
+    <style>
+    -fx-padding: 10;
+    </style>
+    <Label alignment="CENTER_LEFT" textAlignment="LEFT" text="Write the code of the product you wish to delete." />
+    <TextField fx:id="searchField" promptText="Product Code" />
+    <Label fx:id="deleteStatus" text="" />
+    <Button fx:id="deleteButton" text="DELETE" onAction="#delete" />
+    <children>
+        <Button fx:id="mainMenuButton" text="Return to menu" onAction="#switchTomainMenu" />
+    </children>
+</VBox>

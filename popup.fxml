@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bravo.PopController">
+ <Label text="Item for deletion." />
+ <TableView fx:id="tableView">
+        <columns>
+            <TableColumn fx:id="codeColumn" text="code" prefWidth="70" />
+            <TableColumn fx:id="nameColumn" text="name" prefWidth="100" />
+            <TableColumn fx:id="categoryColumn" text="category" prefWidth="100" />
+            <TableColumn fx:id="priceColumn" text="price" prefWidth="100" />
+            <TableColumn fx:id="stockColumn" text="stock" prefWidth="100" />
+        </columns>
+    </TableView>
+ <Label text="Please confirm or deny the deletion: " />
+ <Button fx:id="confirmButton" text="Confirm" onAction="#confirmDeletion" />
+ <Button fx:id="denyButton" text="Deny" onAction="#denyDeletion" />
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>
