@@ -1,6 +1,6 @@
 ## Database Management with UI
 
-This project is a comprehensive application that integrates database operations within a user-friendly graphical user interface (GUI).
+This project is a comprehensive application that integrates database operations within a basic graphical user interface (GUI).
 It allows users to interact with the database, performing various operations such as data retrieval, insertion, updating, and deletion.
 
 # Features:
